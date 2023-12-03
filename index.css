@@ -40,7 +40,7 @@ li{
 }
 .buttom{
     width:100%;
-    height: 60vh;
+    height: 45vh;
 }
 .title{
     width: 100%;
@@ -64,4 +64,40 @@ li{
 }
 .title li p{
     width:60%;
+}
+ol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+ol li{
+    width:25%;
+    height: 10vh;
+    text-align: center;
+    font-size: 2vh;
+}
+ol li p,ol li img{
+    display: inline-block;
+    margin-top: 1vh;
+}
+.footed{
+    width: 100%;
+    height: 6vh;
+    margin-top: 5vh;
+    padding: 1vh 0;
+    border-top: 0.1vh solid #bdbdbd;
+}
+.footed ul{
+    display: flex;
+    text-align: center;
+}
+.footed ul li{
+    width:22vh;
+    height: 9vh;
+    font-size: 2vh;
+}
+.footed ul li p{
+    margin-top: 1vh;
 }
